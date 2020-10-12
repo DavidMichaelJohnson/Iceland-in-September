@@ -1,18 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-color: #25262A;
-}
+
 
 li, a, button {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: white;
+    color: 3399ff;
     text-decoration: none;
     margin-right: auto;
 }
@@ -35,6 +30,7 @@ header {
 
 .nav_links li a {
     transition: all 0.3s ease 0s;
+    color: #042f5a;
 }
 
 .nav_links li a:hover {
@@ -43,7 +39,7 @@ header {
 
 button {
     padding: 9px 25px;
-    background-color: rgba(0,136,169,1);
+    background-color: rgba(74, 111, 233, 0.719);
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -51,7 +47,7 @@ button {
 }
 
 button:hover {
-    background-color: (0,136,169,0.8);
+    background-color: rgb(74, 111, 233);
 }
 
 .card {
@@ -72,4 +68,11 @@ button:hover {
 .cta {
     position: fixed;
     right: 50px;
+    color: 0088a9;
+}
+
+body {
+    background-image: url(../img/babyhorse.jpg);
+    background-size: 100vw;
+    background-repeat: no-repeat;
 }
