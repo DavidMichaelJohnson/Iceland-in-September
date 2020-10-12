@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Raleway:wght@800&display=swap');
 
 
 li, a, button {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: 3399ff;
     text-decoration: none;
     margin-right: auto;
 }
@@ -73,7 +72,22 @@ button:hover {
 }
 
 body {
+    display: flexbox;
     background-image: url(../img/babyhorse.jpg);
     background-size: 100vw;
     background-repeat: no-repeat;
+}
+
+h1 {
+    color: #f3f3f3ce;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-top: ;
+    font-size: ;
+}
+
+#text1 {
+display: flex;
+position: ;
 }
