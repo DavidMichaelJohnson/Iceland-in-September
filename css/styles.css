@@ -16,7 +16,7 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 30px 10%;
+    padding: 0px 0%;
 }
 
 .nav_links {
@@ -53,6 +53,7 @@ button:hover {
 .card {
     position: relative;
     display: inline-flex;
+    padding: ;
 }
 .card .img-top {
     display: none;
