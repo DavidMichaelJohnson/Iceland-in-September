@@ -64,12 +64,6 @@ button:hover {
     display: flex;
 }
 
-.cta {
-    position: relative;
-    right: 0px;
-    color: #0088a9;
-}
-
 body {
     display: inline;
     background-image: url(../img/babyhorse.jpg);
@@ -82,8 +76,4 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Raleway', sans-serif;
     text-align: center;
-}
-
-#text1 {
-display: block;
 }
